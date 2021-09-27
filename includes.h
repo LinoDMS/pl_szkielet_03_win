@@ -1,0 +1,16 @@
+#include <GL/glew.h>
+#include <GLFW/glfw3.h>
+#include <glm/glm.hpp>
+#include <glm/gtc/type_ptr.hpp>
+#include <glm/gtc/matrix_transform.hpp>
+#include <assimp/Importer.hpp>
+#include <assimp/scene.h>
+#include <assimp/postprocess.h>
+#include <iostream>
+#include <stdlib.h>
+#include <stdio.h>
+#include <Windows.h>
+#include "constants.h"
+#include "lodepng.h"
+#include "shaderprogram.h"
+#include <time.h>
